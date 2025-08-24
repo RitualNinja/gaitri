@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
+    "start": "expo start --project-root .",
+    "android": "expo start --android --project-root .",
+    "ios": "expo start --ios --project-root .",
+    "web": "expo start --web --project-root .",
+    "clean": "rm -rf node_modules .expo .parcel-cache && npm install",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
