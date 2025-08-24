@@ -5,7 +5,7 @@ module.exports = function(api) {
 		plugins: [
 			['module-resolver', { alias: { '@': './src' } }],
 			'nativewind/babel',
-			'react-native-worklets/plugin',
+			'react-native-reanimated/plugin',
 		],
 	};
 };
